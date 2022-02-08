@@ -1,5 +1,5 @@
 export class Clientes {
-    idUsuario?: number;
+    idUsuario?: Number;
     nombreUsuario: String;
     apellidoUsuario: String;
     celular: BigInteger;
