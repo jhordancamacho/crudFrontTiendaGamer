@@ -12,7 +12,3 @@ constructor(id:object,fechaInicio:String,fechFin:String) {
     this.fechaFin = fechFin;
 }
 }
-// interface Id {
-//     idJuego: number;
-//     idCompra: number;
-// }
