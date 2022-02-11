@@ -13,4 +13,7 @@ export class AlquilerService {
   public lista(): Observable<AlquilerService[]>{
     return this.httpClient.get<AlquilerService[]>(this.alquilerURL);
   }
+  public listarPorId(id: number): Observable<AlquilerService[]>{
+    return this.httpClient.get<AlquilerService[]>(this.alquilerURL + '${id}');
+  }
 }
